@@ -37,6 +37,12 @@ Com base nos dados obtidos, selecione uma prática ou dado de teste relevante e 
 
 ## Respostas
 
-**1. Repositório selecionado:** `<URL_DO_REPOSITÓRIO_AQUI>`
+**1. Repositório selecionado:** `https://github.com/iluwatar/java-design-patterns`
 
-**2. Explicação:** `<SUA_EXPLICAÇÃO_AQUI>`
+**2. Explicação:** Uma prática de teste observada no repositório é a organização dos testes de acordo com os padrões de projeto implementados. Cada padrão, como Singleton, Observer e Dependency Injection, possui sua própria estrutura de testes dedicada.
+
+Essa abordagem facilita a manutenção e a compreensão dos testes, pois permite validar o comportamento específico de cada padrão de forma isolada. Além disso, o uso de bibliotecas como JUnit (especialmente JUnit Jupiter) indica a adoção de testes unitários modernos, com foco em automatização e repetibilidade.
+
+Outra prática relevante é o uso de mocks, por meio da biblioteca Mockito, que permite simular dependências e testar componentes de forma independente. Isso melhora a confiabilidade dos testes e reduz o acoplamento com outras partes do sistema.
+
+![alt text](image.png)
